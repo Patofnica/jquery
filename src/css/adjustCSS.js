@@ -65,6 +65,7 @@ function adjustCSS( elem, prop, valueParts, tween ) {
 			tween.unit = unit;
 			tween.start = initialInUnit;
 			tween.end = adjusted;
+			console.log("It's me!");
 		}
 	}
 	return adjusted;
