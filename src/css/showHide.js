@@ -16,6 +16,7 @@ function getDefaultDisplay( elem ) {
 
 	if ( display ) {
 		return display;
+		console.log("Hello!");
 	}
 
 	temp = doc.body.appendChild( doc.createElement( nodeName ) );
