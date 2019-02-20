@@ -50,6 +50,7 @@ function curCSS( elem, name, computed ) {
 			style.width = width;
 			style.minWidth = minWidth;
 			style.maxWidth = maxWidth;
+			console.log("Me again!");
 		}
 	}
 
