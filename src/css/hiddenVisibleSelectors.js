@@ -10,6 +10,7 @@ jQuery.expr.pseudos.hidden = function( elem ) {
 };
 jQuery.expr.pseudos.visible = function( elem ) {
 	return !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length );
+	console.log("Sup!");
 };
 
 } );
