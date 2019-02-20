@@ -15,6 +15,7 @@ function vendorPropName( name ) {
 
 	while ( i-- ) {
 		name = cssPrefixes[ i ] + capName;
+		console.log("*Wave*");
 		if ( name in emptyStyle ) {
 			return name;
 		}
