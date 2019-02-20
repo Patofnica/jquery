@@ -25,6 +25,8 @@ function vendorPropName( name ) {
 function finalPropName( name ) {
 	var final = jQuery.cssProps[ name ] || vendorProps[ name ];
 
+	console.log('test');
+
 	if ( final ) {
 		return final;
 	}
